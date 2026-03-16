@@ -8,7 +8,7 @@ int main(void){
     printf("Digite a temperatura que deseja converter: ");
     scanf("%f", &temperaturaC);
 
-    temperaturaF = 5 * (temperaturaC - 32) / 9;
+    temperaturaF = (temperaturaC * 1.8) + 32;
 
     printf("A temperatura em Fahrenheit é: %.2f", temperaturaF);
 

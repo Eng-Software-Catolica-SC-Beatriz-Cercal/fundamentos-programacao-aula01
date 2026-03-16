@@ -2,11 +2,20 @@
 #include <stdlib.h>
 
 int main(void){
+	
+		//Variáveis
+	char nome[]="Beatriz Cercal Cachoeira"; //número de variáveis []
+	char endereco[]="Rua Carlos Romualdo do Rosario, 220";
+	int idade=17;
+	char email[]="bia";
+	//[tipo da variável] [nome da variável];
+	
+	
     printf(" ---------------------------------------------\n");
-	printf("| Nome: Beatriz Cercal Cachoeira |\n");
-    printf("| Endereço:Rua Carlos Romualdo do Rosário, 220 |\n");
-    printf("| Telefone (47) 98850-7705 |\n");
-	printf("| Email: biaccachoeira@gmail.com.br |\n");
+	printf("| Nome: Beatriz Cercal Cachoeira              |\n");
+    printf("| Endereco:Rua Carlos Romualdo do Rosario, 220|\n");
+    printf("| Idade: 17                                   |\n");
+	printf("| Email: biaccachoeira@gmail.com.br           |\n");
     printf(" ---------------------------------------------\n");
 
 
