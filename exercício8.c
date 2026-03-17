@@ -2,16 +2,22 @@
 #include <stdlib.h>
 
 int main (void){
-    float numero1;
-    float numero2;
-    float soma;
-    
-    printf("Digite o primeiro número:");
-    scanf("%f", &numero1);
-    printf("Digite o segundo número:");
-    scanf("%f", &numero2);
-    soma = numero1 + numero2;
-    printf("A soma dos dois números é: %.2f", soma);
+	//Quais são as variáveis?
+	float numero1, numero2, resultado;
+	
+	//Quais são as entradas de dados?
+	printf("Digite 1 numero:");
+	scanf ("%f", &numero1);
+	fflush(stdin);
+	printf("Digite 2 numero:");
+	scanf ("%f", &numero2);
+	fflush(stdin);
+	
+	//Quais são os processamentos de dados?
+	resultado=numero1+numero2;
+	
+	//Quais são as saídas dos dados?
+	printf("%f + %f = %f", numero1, numero2, resultado);
 
-
+return 0;	
 }
