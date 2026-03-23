@@ -2,9 +2,11 @@
 #include <stdlib.h>
 
 int main(void){
+    //Quais são as variáveis?
     float temperaturaF;
     float temperaturaC;
 
+    //Entrada de dados:
     printf("Digite a temperatura que deseja converter: ");
     scanf("%f", &temperaturaC);
 
