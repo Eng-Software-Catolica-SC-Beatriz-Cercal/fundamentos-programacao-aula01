@@ -3,12 +3,12 @@
 
 int main (void){
     //Variáveis
-    float dias, salario, desconto;
+    float horas, salario, desconto, valor;
     //Entrada de dados
-    printf("Quantos dias voce trabalhou?");
-    scanf("%f", &dias);
+    printf("Quantas horas voce trabalhou?");
+    scanf("%f", &horas);
     //Processamento
-    salario = dias * 25;
+    salario = horas * 25;
     desconto = salario * 0.08;
     //Saída de dados
     printf("O valor do seu salario, com descontos: %.2f", salario - desconto);
