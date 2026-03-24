@@ -9,4 +9,5 @@ printf("Digite quantas horas você trabalha: ");
 scanf("%f", &hora);
 salario = valor * hora;
 printf("O valor do seu salário é: %.2f", salario);
+return 0;
  }

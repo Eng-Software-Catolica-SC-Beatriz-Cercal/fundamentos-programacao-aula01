@@ -15,5 +15,6 @@ int main (void){
     printf ("(-) INSS: R$ %.2f\n", inss);
     printf ("(-) Sindicato: R$ %.2f\n", sindicato);
     printf ("Salário Líquido : R$ %.2f", salariol);
+    return 0;
 
 }

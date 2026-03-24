@@ -8,5 +8,6 @@ int main (void){
     salario = dias * 25;
     desconto = salario * 0.08;
     printf("O valor do seu salario, com descontos: %.2f", salario - desconto);
+    return 0;
 
 }
