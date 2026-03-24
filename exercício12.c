@@ -7,6 +7,7 @@ int main (void){
     //Entrada de dados
     printf ("Digite seu salaário bruto mensal: R$");
     scanf("%f", &salariob);
+    fflush(stdin);
     //Processamento de dados
     ir = salariob * 0.15;
     inss = salariob * 0.11;

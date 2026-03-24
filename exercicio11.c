@@ -7,6 +7,7 @@ int main (void){
     //Entrada de dados
     printf("Quantas horas voce trabalhou?");
     scanf("%f", &horas);
+    fflush(stdin);
     //Processamento
     salario = horas * 25;
     desconto = salario * 0.08;
